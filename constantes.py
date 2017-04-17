@@ -1,5 +1,5 @@
-IP = '127.0.0.1'
+IP = '192.168.1.107'
 PORTA = 8888
-CARACTERES_PACOTE = 4096
+CARACTERES_PACOTE = 2048
 
-NOME = 'recebido/arq.jpg'
+NOME = 'recebido/arq.txt'
