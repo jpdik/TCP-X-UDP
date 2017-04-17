@@ -33,7 +33,7 @@ f = open(C.NOME,'wb')
 
 while True:
 	#Recebe ate 1024 bytes enviados pelo cliente
-	dados = con.recv(2048)
+	dados = con.recv(C.CARACTERES_PACOTE)
 	if comecou == 0:
 		tempo = time.time()
 		comecou = 1

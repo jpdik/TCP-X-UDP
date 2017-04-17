@@ -20,7 +20,7 @@ f = open(C.NOME, 'wb')
 md = md5()
 
 while True:
-	dados,dados_cli = s.recvfrom(2048)
+	dados,dados_cli = s.recvfrom(C.CARACTERES_PACOTE)
 	if comecou == 0:
 		tempo = time.time()
 		comecou = 1
@@ -28,14 +28,15 @@ while True:
 	if dados == 'fim':		
 		break
 
-		md.update(dados)
+	md.update(dados)
 
-		f.write(dados)
+	f.write(dados)
 
-	f.close()
+	
+f.close()
 
-	print 'tempo: ' + str(time.time()-tempo)
-	print 'tamanho: ' + str(os.path.getsize(C.NOME))
-	print md.hexdigest()
+print 'tempo: ' + str(time.time()-tempo)
+print 'tamanho: ' + str(os.path.getsize(C.NOME))
+print md.hexdigest()
 
 s.close()

@@ -20,7 +20,7 @@ md = md5()
 tempo = time.time()
 
 while True:
-	byts = f.read(2048)
+	byts = f.read(C.CARACTERES_PACOTE)
 
 	if not byts:
 		s.sendto('fim', (C.IP, C.PORTA))
