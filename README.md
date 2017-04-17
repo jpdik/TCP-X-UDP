@@ -15,8 +15,7 @@ e verificar se todos os dados estão íntegros.
 
 # Resultados
 
-Foram feitos envios de 3 tamanhos de arquivos:
-
+Foram feitos envios de 3 tamanhos de arquivos para o ip do roteador:
 <pre>
 585.2 KB
 1.0 GB
@@ -25,3 +24,25 @@ Foram feitos envios de 3 tamanhos de arquivos:
 
 No qual se foram obtidos os seguintes resultados:
 
+585.2 KB
+<pre>
+TCP
+tempo: 0.00467991828918
+tamanho: 585239
+d5d758ba536e4e5d6fc2ae9007a604ae
+
+UDP 
+tempo: 0.00361895561218
+tamanho: 585239
+d5d758ba536e4e5d6fc2ae9007a604ae
+</pre>
+
+1.0 GB
+<pre>
+</pre>
+
+2.0 GB
+<pre>
+</pre>
+
+e foram gerados os seguintes gráficos:
