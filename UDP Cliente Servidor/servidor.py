@@ -2,16 +2,19 @@ import socket
 from hashlib import md5
 import time
 import os
+import sys
 
-NOME = 'arq.zip'
+sys.path.insert(0, os.getcwd()[:os.getcwd().rfind('/')])
+
+import constantes as C
 
 comecou = 0
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-s.bind(('10.3.1.36',8888))
+s.bind((C.IP, C.PORTA))
 
-f = open(NOME, 'wb')
+f = open(C.NOME, 'wb')
 
 
 md = md5()
@@ -32,7 +35,7 @@ while True:
 	f.close()
 
 	print 'tempo: ' + str(time.time()-tempo)
-	print 'tamanho: ' + str(os.path.getsize(NOME))
+	print 'tamanho: ' + str(os.path.getsize(C.NOME))
 	print md.hexdigest()
 
 s.close()

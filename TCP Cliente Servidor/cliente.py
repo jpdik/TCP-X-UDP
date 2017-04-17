@@ -4,15 +4,22 @@ import socket
 from sys import argv
 from hashlib import md5
 import time
-import os 
+import os
+import sys
+
+sys.path.insert(0, os.getcwd()[:os.getcwd().rfind('/')])
+
+import constantes as C
+
+arquivo = os.getcwd()[:os.getcwd().rfind('/')+1] + 'Arquivos/' + argv[1]
 
 #Cria o objeto socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #Conecta o socket criado ao servidor
-s.connect(('127.0.0.1', 7777))
+s.connect((C.IP, C.PORTA))
 
-f = open(argv[1],'rb')
+f = open(arquivo,'rb')
 
 md = md5()
 
@@ -31,7 +38,7 @@ while True:
 f.close()
 
 print 'tempo: ' + str(time.time()-tempo)
-print 'tamanho: ' + str(os.path.getsize(argv[1]))
+print 'tamanho: ' + str(os.path.getsize(arquivo))
 print md.hexdigest()
 
 s.close()
