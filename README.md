@@ -58,7 +58,7 @@ tamanho: 1.070.774.272
 2f1969c6c8f1390a664ef5bf81308643 (Incorreto)
 </pre>
 
-2.0 GB
+2.1 GB
 <pre>
 TCP
 tempo: 89.9414391518
