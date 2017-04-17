@@ -4,9 +4,9 @@ Analisando tempo e confiabilidade entre os dois protocolos
 Para realizar os testes, foi feita uma implementação nos dois dois protocolos `TCP` e `UDP`, no qual
 obtemos as seguintes informações no cliente e servidor das conexões:
 
-`Tempo`: Tempo de envio para o servidor;
-`Tamanho`: Tamanho do arquivo recebido;
-`Código md5`: código de informa se o arquivo está integro, porque precisa ser o mesmo do arquivo original;
+`Tempo`: Tempo de envio para o servidor;_
+`Tamanho`: Tamanho do arquivo recebido;_
+`Código md5`: código de informa se o arquivo está integro, porque precisa ser o mesmo do arquivo original;_
 
 O objetivo é analisar o tempo entre um protocolo e outro, verificar se todos os dados foram recebidos
 e verificar se todos os dados estão íntegros.
