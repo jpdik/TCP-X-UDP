@@ -1,14 +1,12 @@
 # TCP-X-UDP
 Analisando tempo e confiabilidade entre os dois protocolos
 
-Para realizar os testes, foi feita uma implementação nos dois dois protocolos TCP e UDP, no qual
+Para realizar os testes, foi feita uma implementação nos dois dois protocolos `TCP` e `UDP`, no qual
 obtemos as seguintes informações no cliente e servidor das conexões:
 
-<pre>
-Tempo
-Tamanho
-Código md5
-</pre>
+`Tempo`: Tempo de envio para o servidor;
+`Tamanho`: Tamanho do arquivo recebido;
+`Código md5`: código de informa se o arquivo está integro, porque precisa ser o mesmo do arquivo original;
 
 O objetivo é analisar o tempo entre um protocolo e outro, verificar se todos os dados foram recebidos
 e verificar se todos os dados estão íntegros.
@@ -16,7 +14,7 @@ e verificar se todos os dados estão íntegros.
 # Arquivo de testes
 
 Para arquivos grandes de testes, foi criado um gerador.
-Basta executar o 'gerar.py' passando a quantidade de GB's o arquivo de 'teste.txt' terá.
+Basta executar o `gerar.py` passando a quantidade de GB's o arquivo de `teste.txt` terá.
 Exemplo:
 
 <pre>
