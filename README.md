@@ -23,11 +23,11 @@ python gerar.py 1
 
 # Resultados
 
-Foram feitos envios de 3 tamanhos de arquivos para o ip do roteador:
+Foram feitos envios de 3 tamanhos de arquivos na rede para o ip do roteador:
 <pre>
-585.2 KB
-1.1 GB
-2.1 GB
+585.2 KB   md5(d5d758ba536e4e5d6fc2ae9007a604ae)
+  1.1 GB   md5(adb5a28fda6ec2a01075b9945887a083)
+  2.1 GB   md5(d81114fa7eec56193a13ca3cb2526991)
 </pre>
 
 No qual se foram obtidos os seguintes resultados de recebimento no sevidor:
@@ -35,40 +35,46 @@ No qual se foram obtidos os seguintes resultados de recebimento no sevidor:
 585.2 KB
 <pre>
 TCP
-tempo: 0.00467991828918
+tempo: 0.00249910354614
 tamanho: 585.239
-d5d758ba536e4e5d6fc2ae9007a604ae (Correto)
+tempo médio: 1.57806423161e-06
+md5: d5d758ba536e4e5d6fc2ae9007a604ae (Correto)
 
 UDP 
-tempo: 0.00361895561218
+tempo: 0.00267195701599
 tamanho: 585.239
-d5d758ba536e4e5d6fc2ae9007a604ae (Correto)
+tempo médio: 2.1474344747e-06
+md5: d5d758ba536e4e5d6fc2ae9007a604ae (Correto)
 </pre>
 
 1.1 GB
 <pre>
 TCP
-tempo: 11.0367531776
+tempo: 4.07875609398
 tamanho: 1.073.741.824
-adb5a28fda6ec2a01075b9945887a083 (Correto)
+tempo médio: 1.37013103085e-06
+md5: adb5a28fda6ec2a01075b9945887a083 (Correto)
 
 UDP
-tempo: 41.8832139969
-tamanho: 1.070.774.272
-2f1969c6c8f1390a664ef5bf81308643 (Incorreto)
+tempo: 4.1785800457
+tamanho: 1.003.311.104
+tempo médio: 1.96201576877e-06
+md5: fd55dc73ac133f9e466e196237447975 (Incorreto)
 </pre>
 
 2.1 GB
 <pre>
 TCP
-tempo: 89.9414391518
+tempo: 36.678647995
 tamanho: 2.147.483.648
-d81114fa7eec56193a13ca3cb2526991 (Correto)
+tempo médio: 1.70333646565e-06
+md5: d81114fa7eec56193a13ca3cb2526991 (Correto)
 
 UDP
-tempo: 86.2373151779
-tamanho: 2.141.937.664
-db1fbba3b7068f69bb9a999f57899544 (Incorreto)
+tempo: 8.46506595612
+tamanho: 1.203.718.144
+tempo médio: 2.0753563078e-06
+md5: eb2513423f51a740a55350c399a5df56 (Incorreto)
 </pre>
 
 e foram gerados os seguintes gráficos:
