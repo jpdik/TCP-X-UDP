@@ -80,13 +80,13 @@ md5: eb2513423f51a740a55350c399a5df56 (Incorreto)
 e foram gerados os seguintes gráficos:
 
 <p align="center">
-  <img src="https://github.com/TCP-X-UDP/blob/master/Comparativo/585.2.png?raw=true"/>
+  <img src="https://github.com/jpdik/TCP-X-UDP/blob/master/Comparativo/585.2.png?raw=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/TCP-X-UDP/blob/master/Comparativo/1.1.png?raw=true"/>
+  <img src="https://github.com/jpdik/TCP-X-UDP/blob/master/Comparativo/1.1.png?raw=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/TCP-X-UDP/blob/master/Comparativo/2.1.png?raw=true"/>
+  <img src="https://github.com/jpdik/TCP-X-UDP/blob/master/Comparativo/2.1.png?raw=true"/>
 </p>
