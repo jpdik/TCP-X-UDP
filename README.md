@@ -91,4 +91,5 @@ e foram gerados os seguintes gráficos:
   <img src="https://github.com/jpdik/TCP-X-UDP/blob/master/Comparativo/2.1.png?raw=true"/>
 </p>
 
+# Conclusão
 Ao analisar os gráficos podemos notar que o UDP não nos da garantia de que todos os dados chegarão e ao mesmo tempo ainda é mais lento que o TCP em tempo total, porem ele possui alguns dados que chegam mais rápido no local do que o TCP, e quanto maior for o arquivo sendo enviado, melhor será seu desempenho quando comparado com UDP, porém sua perda também é maior. Isso de deve de acordo com os tratamentos que o TCP realiza. Ele não só garante a integridade dos dados, como também possui uma janela e um buffer para garantir o controle de fluxo e congestionamento.
