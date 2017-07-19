@@ -1,4 +1,4 @@
-# TCP-X-UDP
+﻿# TCP-X-UDP
 Analisando tempo e confiabilidade entre os dois protocolos
 
 Para realizar os testes, foi feita uma implementação nos dois dois protocolos `TCP` e `UDP`, no qual
@@ -78,3 +78,15 @@ md5: eb2513423f51a740a55350c399a5df56 (Incorreto)
 </pre>
 
 e foram gerados os seguintes gráficos:
+
+<p align="center">
+  <img src="https://github.com/TCP-X-UDP/blob/master/Comparativo/585.2.png?raw=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/TCP-X-UDP/blob/master/Comparativo/1.1.png?raw=true"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/TCP-X-UDP/blob/master/Comparativo/2.1.png?raw=true"/>
+</p>
